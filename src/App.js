@@ -46,6 +46,7 @@ function App() {
             src={item.img}
             title={item.title}
             info={item.info}
+            key={item.id}
           />
         );
       })}
