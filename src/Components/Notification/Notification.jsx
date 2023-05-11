@@ -5,6 +5,7 @@ function Notification(props) {
     <div className="notification-wrapper">
       <div className="line" style={{ backgroundColor: props.color }}></div>
       <img
+        alt={props.title}
         className="image"
         style={{ backgroundColor: props.color }}
         src={props.src}
